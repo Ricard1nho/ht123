@@ -1,0 +1,14 @@
+.carousel {
+    height: 600px;
+    perspective: 250px;
+    width: 300px;
+}
+.carousel .carouselItem{
+    width: 450px;
+}
+.img {
+    width: 100%;
+    object-fit: contain;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.3));
+    -webkit-filter: drop-shadow(0 0 15px #fff5);
+}

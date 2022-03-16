@@ -1,0 +1,21 @@
+.proof {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    top: -100px;
+    box-shadow: 1px 1px 15px 1px #7b7b7b38;
+    left: 0;
+    right: 0;
+    display: none;
+    /* display: flex; */
+}
+
+@media screen and (max-width: 600px) {
+    .proof {
+        width: 95% !important;
+        height: 100% !important;
+        display: flow-root !important;
+    }
+}
